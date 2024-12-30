@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>預約清潔</h1>
+						<p>居家清潔填寫內容</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<div class="formFlex">
+									<div class="box">
+										<div class="form-item">
+											<div class="row">
+												<!-- 姓名欄位 -->
+												<div class="col-sm-6">
+													<label for="name">姓名<span class="req-star">*</span></label>
+													<input type="text" class="form-control" req="Y"  placeholder="請填寫姓名" title="請填寫姓名" form_id="name" />
+												</div>
+												<!-- 電話欄位 -->
+												<div class="col-sm-6">
+													<label for="tel">電話<span class="req-star">*</span></label>
+													<input type="text" class="form-control" placeholder="請填寫電話" required title="請填寫電話" form_id="tel" />
+												</div>
+											</div>
+										</div>
+										
+										<div class="form-item">
+											<div class="row">
+												<!-- 信箱欄位 -->
+												<div class="col-sm-12">
+													<label for="email">信箱</label>
+													<input type="email" class="form-control" placeholder="請填寫電子信箱" title="請填寫電子信箱" form_id="email" style="width: 80%; padding: 10px; />
+													
+												</div>
+											</div>
+										</div>
+										
+										<div class="form-item>
+											<div class="row">
+												<div class="col-sm-3">
+													<label for="">詢價項目</label>
+												</div>
+												<div class="col-sm-9">
+													<div class="row">
+														<div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt1" value="環境消毒" v2="pYS_BtY0m6yTLVaMa1JCag" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt1">清潔收納</label>
+																</div>
+															</div><div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt2" value="石材美容保養" v2="5tKpKqHPsMZQ82iPyZj4TQ" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt2">消毒除蟎</label>
+																</div>
+															</div><div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt3" value="地毯沙發清洗" v2="u4tA4QRfb-5cNGFmIECgQw" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt3">冷氣清洗</label>
+																</div>
+															</div><div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt4" value="深度清潔" v2="uLttaPXm97S-qRKG-ynlGA" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt4">廚房清潔</label>
+																</div>
+															</div><div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt5" value="駐點清潔管理維護" v2="Twlimva6g_nLSvMaW_A39w" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt5">浴室清潔</label>
+																</div>
+															</div><div class="col-md-6">
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="checkbox" form_id="item" id="opt8" value="家電水管清潔" v2="MtB-sEnBgJugyeVyTZpftA" onclick="cancel_item()">
+																	<label class="form-check-label" for="opt8">家電水管清潔</label>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-item">
+											<div class="row">
+												<div class="col-sm-3">
+													<label for="">詢價類型</label>
+												</div>
+												<div class="col-sm-9">
+													<select class="form-control" name="" id="" form_id="type">
+														<option selected disabled value="">請選擇</option>
+														<option value="住家">住家</option>
+														<option value="營業場所">營業場所</option>
+														<option value="商辦大樓">商辦大樓</option>
+														<option value="辦公室">辦公室</option>
+														<option value="社區">社區</option>
+														<option value="醫院診所">醫院診所</option>
+														<option value="其他">其他</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="form-item">
+											<div class="row">
+												<div class="col-sm-3">
+													<label for="">可聯絡時間</label>
+												</div>
+												<div class="col-sm-9">
+													<div class="form-check form-check-inline">
+														<input class="form-check-input" type="checkbox" id="time1" value="9點~12點" form_id="time">
+														<label class="form-check-label" for="time1">9點~12點</label>
+													</div>
+													<div class="form-check form-check-inline">
+														<input class="form-check-input" type="checkbox" id="time2" value="14點~18點" form_id="time">
+														<label class="form-check-label" for="time2">14點~18點</label>
+													</div>
+													<div class="form-check form-check-inline">
+														<input class="form-check-input" type="checkbox" id="time3" value="皆可" form_id="time">
+														<label class="form-check-label" for="time3">皆可</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-item">
+											<div class="row">
+												<div class="col-sm-3">
+													<label for="">縣市</label>
+												</div>
+												<div class="col-sm-9">
+													<div class="row">
+														<div class="col-6">
+															<!-- 城市選擇 -->
+															<select class="form-control" name="city" id="city" form_id="city">
+															  <option selected disabled value="">請選擇</option>
+															  <option value="taipei">台北市</option>
+															  <option value="newtaipei">新北市</option>
+															</select>
+														  </div>
+														  <div class="col-6">
+															<!-- 區域選擇 -->
+															<select class="form-control" name="district" id="district" form_id="district">
+															  <option selected disabled value="">請選擇區域</option>
+															</select>
+														  </div>
+
+
+
+<script>
+	// 初始化區域選項
+	const districtOptions = {
+	  taipei: [
+		'中正區', '大安區', '松山區', '信義區', '士林區'
+	  ],
+	  newtaipei: [
+		'淡水區', '新莊區', '中和區', '永和區', '三重區'
+	  ]
+	};
+  
+	// 取得城市選擇器和區域選擇器
+	const citySelect = document.getElementById('city');
+	const districtSelect = document.getElementById('district');
+  
+	// 當城市選擇變化時更新區域選擇
+	citySelect.addEventListener('change', function() {
+	  const selectedCity = citySelect.value;
+  
+	  // 清空現有的區域選項
+	  districtSelect.innerHTML = '<option selected disabled value="">請選擇區域</option>';
+  
+	  // 根據選擇的城市動態創建區域選項
+	  if (districtOptions[selectedCity]) {
+		districtOptions[selectedCity].forEach(function(district) {
+		  const option = document.createElement('option');
+		  option.value = district;
+		  option.textContent = district;
+		  districtSelect.appendChild(option);
+		});
+	  }
+	});
+  
+	// 預設觸發一次來載入初始的區域選項
+	citySelect.dispatchEvent(new Event('change'));
+  </script>
+
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="box">
+										<div class="form-item">
+											<div class="row">
+												<div class="col-sm-3">
+													<label for="">需求描述<span class="req-star">*</span></label>
+												</div>
+												<div class="col-sm-9">
+													<textarea class="form-control askTextarea" name="" id="" rows="7" style="width: 300%; height: 300px; padding-left: 10px; text-align: left;" req="Y" title="請填寫需求描述" form_id="content">
+〔1〕施工坪數：
+〔2〕施工地址：
+〔3〕家中是否養寵物：
+〔4〕備註：
+													</textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+													
+													
+											</div>
+										</div>
+										
+														<div class="col-12">
+															<ul class="actions">
+																<li><input type="submit" class="style1" value="Send" /></li>
+																<li><input type="reset" class="style2" value="Reset" /></li>
+															</ul>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
